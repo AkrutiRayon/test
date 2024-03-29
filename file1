@@ -34,7 +34,7 @@ pipeline {
                 }
                 }
             }
-            stage('Task-2') {
+            stage('Task-3') {
                 steps {
                 script {
                     timeout(time: 300, unit: 'SECONDS') {

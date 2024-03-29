@@ -70,7 +70,7 @@ pipeline {
                 }
                 }
             }
-            stage('Task-5') {
+            stage('Task-4') {
                 steps {
                 script {
                     timeout(time: 300, unit: 'SECONDS') {
